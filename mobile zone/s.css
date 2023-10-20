@@ -1,0 +1,13 @@
+.fut{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fut img{
+    width: 250px;
+    height: 350px;
+}
+.fut a{
+    text-decoration: none;
+    color: black;
+}
