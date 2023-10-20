@@ -1,0 +1,41 @@
+.fut{
+    display: flex;
+    justify-content: space-evenly;
+}
+.s{
+    text-align: center;
+}
+.fut a{
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 1000px) {
+    .fut {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .menu {
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 850px) {
+    .fut {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .menu {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .fut {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .menu {
+        font-size: 15px;
+    }
+}
